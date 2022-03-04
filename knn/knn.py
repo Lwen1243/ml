@@ -9,4 +9,3 @@ def img2vector(filename):
         for j in range(32):
             returnVector[0, 32*i+j] = int(lineStr[j])
     return returnVector
-
